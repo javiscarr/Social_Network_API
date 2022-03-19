@@ -16,10 +16,10 @@ const thoughtSchema = new Schema(
       get: (createdAtVal) => dateFormat(createdAtVal),
     },
     username: {
-      type: String,
-      required: true,
+      type: Schema.Types.ObjectId,
+      ref: "User",
     },
-    // tying reactions to thought
+
     reactions: [reactionSchema],
   },
   {
@@ -27,7 +27,6 @@ const thoughtSchema = new Schema(
       virtuals: true,
       getters: true,
     },
-    id: false,
   }
 );
 
