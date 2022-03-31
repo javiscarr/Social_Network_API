@@ -15,9 +15,7 @@ This application serves as a `Back-End` Social Network API that allows users to 
 
 # Demo
 
-[Play Demo Part 1](https://drive.google.com/file/d/1UrC_ONlQn0OxRDO6tSMVT6vWukZppVDP/view)
-
-[Play Demo Part 2](https://drive.google.com/file/d/1wAzlZrZvQ06WBbR_vWv0Z-6uDz3xwntP/view)
+[Play Demo ](https://www.youtube.com/watch?v=QpwrUKqzxVI)
 
 ![GIF](./images/Social-Network-API-pt-2.gif)
 
